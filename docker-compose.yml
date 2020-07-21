@@ -1,0 +1,26 @@
+version: "2.4"
+services:
+  web:
+    image: gabrieljacquierme/bitcoin-investment:latest
+    ports:
+      - "8080:8080"
+    environment:
+      DB_HOST: db
+      DB_PORT: 5432
+      DB_USERNAME: bitcoin
+      DB_PASSWORD: bitcoin123
+    depends_on:
+      - "db"
+    networks:
+      - default
+  db:
+    image: postgres:12.3
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_PASSWORD: bitcoin123
+      POSTGRES_USER: bitcoin
+    networks:
+      - default
+networks:
+  default:
