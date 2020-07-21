@@ -1,7 +1,7 @@
 # A simple example for CQRS and Hexagonal Architecture
 
 ## Overview
-##### This project simulates a Bitcoin Store, it was used the API from https://www.mercadobitcoin.net. For more details about the project Architecture I recommend this [content](https://herbertograca.com/2017/11/16/explicit-architecture-01-ddd-hexagonal-onion-clean-cqrs-how-i-put-it-all-together/#fundamental-blocks-of-the-system)
+##### This project simulates a Bitcoin Store, it was used the API from https://www.mercadobitcoin.net. For more details about the project Architecture I recommend this [resume](https://herbertograca.com/2017/11/16/explicit-architecture-01-ddd-hexagonal-onion-clean-cqrs-how-i-put-it-all-together/#fundamental-blocks-of-the-system)
 
 ## Setup
 
